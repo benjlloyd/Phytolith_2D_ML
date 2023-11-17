@@ -1,0 +1,10 @@
+# best features we have
+# using SVM
+# no alignment
+# row 1: subfamily
+# row 2: tribe
+# row 3: genus
+raw pixels, multi-style raw pixels, deep,  multi-style deep, metric-learned multi-style deep
+# 0, 0, 0, 0, 0
+86.4, 86.4, 92.9, 92.3, 96.4
+56.2, 58.5, 66.7, 71.6, 75.4

@@ -1,0 +1,18 @@
+encoder:
+    class: Encoder125
+    net_kwargs:
+        output_dim: 1024
+    opt: Adam
+    opt_kwargs:
+        lr: 3.0e-4
+        eps: 1.0e-5
+
+
+decoder:
+    class: Decoder125
+    net_kwargs:
+        input_dim: 1024
+    opt: Adam
+    opt_kwargs:
+        lr: 3.0e-4
+        eps: 1.0e-5

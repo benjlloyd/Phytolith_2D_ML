@@ -1,0 +1,20 @@
+feature_extractor:
+    class: ResNet34Feature
+    net_kwargs:
+        unfreeze_last_k_layer: 4
+    opt: Adam
+    opt_kwargs:
+        lr: 3.0e-4
+        eps: 1.0e-5
+
+
+classifier:
+     class: LinearClassifier
+     net_kwargs:
+         n_class: 33
+         input_dim: 512
+         init_scale: 1.0
+     opt: Adam
+     opt_kwargs:
+         lr: 3.0e-4
+         eps: 1.0e-5

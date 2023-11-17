@@ -1,0 +1,7 @@
+# Compare SVM and Fully connected
+# Features used: deep features, metric-learned deep features
+svm deep, svm metric-learned deep, fc deep, fc metric-learned deep
+#tribe
+94.7, 97, 94.1, 94.1
+#genus
+80.3, 80.3, 78.1, 79.8

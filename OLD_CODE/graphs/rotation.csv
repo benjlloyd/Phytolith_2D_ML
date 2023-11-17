@@ -1,0 +1,6 @@
+# Deep features multi-style
+# For each row: subfamily, tribe, genus
+random, original, aligned, 4 rotations
+# 0, 0, 0, 0
+92.3, 94.7, 93.5, 94.1
+76.5, 74.3, 73.8, 78.1
